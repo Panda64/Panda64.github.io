@@ -66,6 +66,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .animated-text {
+    transform: scale(0.35);
+  }
+}
+
 .noSelect {
   pointer-events: none;
 }
