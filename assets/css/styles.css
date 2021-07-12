@@ -8,9 +8,7 @@
 @media (max-width: 600px) {
   #top {
     background: url("../../assets/img/banner8.png") top / contain no-repeat;
-    height: 100vh;
-    width: auto;
-    padding-bottom: 0px;
+    margin-bottom: -350px;
     padding-top: 25px;
   }
 }

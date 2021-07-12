@@ -7,11 +7,15 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/Timeline-F19687.css">
 </head>
 
@@ -21,7 +25,7 @@
         <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1"><img src="assets/img/text-1625779730883.png" style="width: 50px;">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#" style="color: var(--bs-white);font-size: 25px;height: 45px;width: 125px;">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" style="color: var(--bs-white);font-size: 25px;height: 45px;width: 125px;scroll-behavior: smooth;" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -45,11 +49,11 @@
     </div><!-- Start: 1 Row 2 Columns -->
     <div class="container" id="about" style="margin-top: 150px;">
         <div class="row" style="margin-top: 50px;">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
                 <p class="lead text-light">About Me</p>
                 <h1 class="text-light" style="font-weight: bold;">Logically Oriented with a Love for Learning New Things</h1>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 <p class="text-white-50">Growing up, I've always had a love for computers. What started as a curiosity rabbit hole eventually led me to where I am today.&nbsp; From flask and python to express and node.js, I am always working to improve my skill in whatever ways I possibly can</p>
                 <p class="text-white-50">Aside from coding, I have interest in other areas such as playing musical instruments (<a class="link-secondary" href="https://www.youtube.com/watch?v=imwmmv9r1oE" target="_blank">here is one of my favorite riffs to play on guitar</a>), listening to music (I enjoy ALL genres), riding motorcycles (I've been riding dirt bikes ever since I was three years old), and many other things.</p>
             </div>
@@ -64,7 +68,7 @@
                 <p class="text-center text-white-50">Here are some projects that I have been working on the past few months...</p>
             </div><!-- End: Intro -->
             <!-- Start: Projects -->
-            <div class="row justify-content-around projects">
+            <div class="row justify-content-around projects" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                 <div class="col-sm-6 col-lg-4 item"><a href="https://jaylens-remindme.herokuapp.com" style="color: rgba(13,110,253,0);" target="_blank">
                         <div data-bss-hover-animate="pulse"><img class="rounded img-fluid" src="assets/img/Screen%20Shot%202021-07-11%20at%205.44.26%20PM.png">
                             <h3 class="text-light name">RemindMe</h3>
@@ -85,47 +89,61 @@
     <div id="timeline" style="margin-top: 150px;">
         <h1 class="text-light" style="text-align: center;margin-bottom: 50px;">My Timeline</h1><!-- Start: Timeline-F19687 -->
         <div class="timeline" style="margin-top: 0px;">
-            <div class="time-container left">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="time-container left">
                 <div class="time-content">
-                    <h2>2017</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <h2>2007-2020 -&nbsp;<a class="link-info" href="https://www.toutlesd.org" target="_blank">Toutle Lake High School</a></h2>
+                    <p class="text-black-50">High School Diploma</p>
+                    <p>I spent my entire public school career at Toutle Lake. With a graduating class of only 41 students, it's safe to say that everybody knew everybody.</p>
                 </div>
             </div>
-            <div class="time-container right">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="time-container right">
                 <div class="time-content">
-                    <h2>2016</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <h2>2016-2020 - Music Teacher</h2>
+                    <p>I gave both guitar and drum lessons to a few elementary school kids. Teaching them not only helped them grow as aspiring musicians, but also helped me refine my communication and leadership skills along the way.</p>
                 </div>
             </div>
-            <div class="time-container left">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="time-container left">
                 <div class="time-content">
-                    <h2>2015</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <h2>2017-2020 -&nbsp;<a class="link-info" href="http://www.kltv.org" target="_blank">TV Station Volunteer</a></h2>
+                    <p>Throughout high school, I volunteered for our local television station, KLTV (Kelso Longview Television). We broadcasted a variety of events including local sports and political venues. I started out as a camera operator but eventually worked my way up to take on the role of director.</p>
                 </div>
             </div>
-            <div class="time-container right">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" class="time-container right">
                 <div class="time-content">
-                    <h2>2012</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <h2>2018-2020 -&nbsp;<a class="link-info" href="https://lowercolumbia.edu" target="_blank">Lower Columbia College</a></h2>
+                    <p>Through the Washington Running Start program, I was able to complete my last two years of high school by exclusively attending college classes at my local community college. This earned me a great amount of college credit.</p>
                 </div>
             </div>
-            <div class="time-container left">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="time-container left">
                 <div class="time-content">
-                    <h2>2011</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-                </div>
-            </div>
-            <div class="time-container right">
-                <div class="time-content">
-                    <h2>2007</h2>
-                    <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+                    <h2>2020-Present -&nbsp;<a class="link-info" href="https://makeschool.org" target="_blank">Make School</a></h2>
+                    <p class="text-black-50">BACs</p>
+                    <p>Make School is a two-year accelerated computer science program. This is currently the program I am in.</p>
                 </div>
             </div>
         </div><!-- End: Timeline-F19687 -->
     </div>
+    <div id="contact" style="margin-top: 150px;">
+        <!-- Start: Contact Form Clean -->
+        <section class="contact-clean" style="background: rgb(13,13,13);padding-top: 50px;">
+            <form style="background: rgb(13,13,13);" data-bss-recipient="0208a6820bc20650c6db7d91ab54943a">
+                <h2 class="text-center text-light">Contact Me</h2><!-- Start: Success Example -->
+                <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name" style="background: rgb(13,13,13);" required=""></div><!-- End: Success Example -->
+                <!-- Start: Error Example -->
+                <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email" style="background: rgb(13,13,13);" required=""></div><!-- End: Error Example -->
+                <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14" style="background: rgb(13,13,13);" required=""></textarea></div>
+                <div><input class="form-control" type="file" style="background: rgb(13,13,13);margin-bottom: 15px;" multiple=""></div>
+                <div class="mb-3"><button class="btn" data-bss-hover-animate="pulse" type="submit" style="background: rgb(13,13,13);color: var(--bs-white);border-width: 1px;border-style: solid;">send </button></div>
+            </form>
+        </section><!-- End: Contact Form Clean -->
+        <!-- Start: Social Icons -->
+        <div data-aos="fade-down" data-aos-once="true" class="social-icons" style="background: rgb(13,13,13);"><a href="https://github.com/Panda64" target="_blank"><i class="icon ion-social-github-outline" data-bss-hover-animate="pulse"></i></a><a href="https://www.linkedin.com/in/jaylen-schelb-b1a4a120a/" target="_blank"><i class="icon ion-social-linkedin-outline" data-bss-hover-animate="pulse"></i></a></div><!-- End: Social Icons -->
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
 </body>
 
