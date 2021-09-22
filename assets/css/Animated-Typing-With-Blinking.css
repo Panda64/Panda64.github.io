@@ -59,6 +59,13 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .animated-text {
+    transform: scale(1.6);
+    padding-bottom: 25px;
+  }
+}
+
 @media (max-width: 800px) {
   .animated-text {
     transform: scale(0.4);
