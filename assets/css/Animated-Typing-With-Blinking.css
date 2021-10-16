@@ -68,12 +68,12 @@
 
 @media (max-width: 800px) {
   .animated-text {
-    transform: scale(0.4);
+    transform: scale(0.5);
     white-space: nowrap;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .animated-text {
     transform: scale(0.35);
   }

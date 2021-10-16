@@ -1,3 +1,8 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #top {
   background: url("../../assets/img/banner8.png") top / cover no-repeat;
   height: 100vh;
@@ -10,6 +15,19 @@
     background: url("../../assets/img/banner8.png") top / contain no-repeat;
     margin-bottom: -350px;
     padding-top: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  #intro-p {
+    padding: 10px;
+    background: rgba(0,0,0,0.51);
+  }
+}
+
+@media (max-width: 600px) {
+  #intro-p {
+    margin-top: -40px;
   }
 }
 
